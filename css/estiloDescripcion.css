@@ -1,0 +1,44 @@
+/* *{
+	padding: 0;
+	margin: 0;
+	font-family:"Tahoma" !important;
+} */
+#DP{
+  padding-top: 70px;
+  padding-left:43%;
+  font-size: 30px;
+}
+#buscador{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 9px;
+    border: 1px solid gray;
+    width: 500px;
+    height: 30px;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+#contenedorB{
+    vertical-align:middle;
+ }
+.buscar{
+    border: none;
+    height: 100%;
+    width: 430%;    /* estaba en 100---tamaño del buscador blanco*/
+    padding: 5px;
+    padding-right: 0px;
+    padding-left: 10px;
+    border-radius: 50px;
+    /* font-size: 20; */
+    font-family: Tahoma;
+    color: gray;
+}
+.buscar:focus{
+    outline: none;
+}
+#lupa{
+    font-size: 25;
+    color:rgb(255, 123, 0);
+    /* padding-left: 1080%; */
+    padding-left: 350px;
+  }
